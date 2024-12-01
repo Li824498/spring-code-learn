@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-profile" />
+        <module name="dmybatis-spring-boot-autoconfigure" />
+        <module name="springboot-create-manual" />
+        <module name="springboot-auto-config" />
+        <module name="springboot-quickstart" />
+        <module name="springboot-register" />
+        <module name="dmybatis-spring-boot-starter" />
+        <module name="demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-mybatis" target="17" />
+      <module name="springboot-mybatis" target="17" />
+      <module name="springboot-profiles" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="spring-mybatis" options="-parameters" />
+      <module name="spring-profile" options="-parameters" />
+      <module name="springboot-auto-config" options="-parameters" />
+      <module name="springboot-create-manual" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-profiles" options="" />
+      <module name="springboot-quickstart" options="-parameters" />
+      <module name="springboot-register" options="-parameters" />
+    </option>
+  </component>
+</project>
